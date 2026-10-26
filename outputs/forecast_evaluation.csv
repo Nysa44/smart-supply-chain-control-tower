@@ -1,0 +1,2 @@
+product_id,test_days,mae_units,wape_pct,baseline
+P100,14,2.214,7.93,Mean demand over preceding 7 training days

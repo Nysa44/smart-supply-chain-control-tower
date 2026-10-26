@@ -1,0 +1,9 @@
+use_case,primary_metric,guardrail_metric,definition,measurement_design
+Recommendations,Conversion rate,Returns and opt-out rate,Orders divided by eligible sessions,Randomised holdout where feasible
+Recommendations,Click-through rate,Recommendation diversity,Recommendation clicks divided by impressions,Randomised holdout and segment review
+Predictive fulfilment,Forecast WAPE,Forecast bias,Sum absolute error divided by sum actual demand,Rolling-origin backtest then controlled pilot
+Predictive fulfilment,Stockout rate,Excess inventory,Share of item-location days without sellable stock,Matched pilot categories or stores
+Omnichannel,First-contact resolution,Customer satisfaction,Eligible cases resolved without repeat contact,Phased rollout with holdout where feasible
+Omnichannel,Average handling time,Answer accuracy,Mean active agent handling time,Case-mix adjusted comparison
+Cross-cutting,Incremental gross margin,Cost per order,Incremental gross profit net of discounts and fulfilment effects,Pre-registered experiment and finance validation
+Cross-cutting,Escalation rate,Privacy/policy incidents,Share of interactions escalated due to uncertainty or risk,Daily monitoring and incident review

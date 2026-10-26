@@ -1,0 +1,17 @@
+product_id,product_name,category,tags,price_aed,rating,in_stock,eco_material,high_performance,recommendable
+P100,Everyday Cotton Tee,Apparel,basics,79,4.4,1,1,1,1
+P101,Relaxed Linen Shirt,Apparel,summer,149,4.6,1,1,0,1
+P102,Lightweight Running Jacket,Sportswear,outdoor,249,4.5,1,0,1,1
+P103,Performance Running Socks,Sportswear,running,39,4.3,1,1,1,1
+P104,Insulated Water Bottle,Accessories,outdoor,89,4.7,1,1,1,1
+P105,Minimal Leather Wallet,Accessories,essentials,119,4.2,1,1,0,1
+P106,Organic Cotton Hoodie,Apparel,basics,179,4.6,1,0,1,1
+P107,Travel Backpack,Accessories,travel,229,4.5,1,1,1,1
+P108,Everyday Sneakers,Footwear,essentials,199,4.4,1,1,1,1
+P109,Trail Running Shoes,Footwear,running,329,4.8,0,1,1,1
+P110,Packable Rain Shell,Sportswear,outdoor,219,4.3,1,0,1,1
+P111,Reusable Tote Bag,Accessories,essentials,25,4.1,1,1,1,1
+P112,Premium Denim Jeans,Apparel,essentials,189,4.5,1,1,0,1
+P113,Yoga Training Top,Sportswear,fitness,99,4.4,1,1,1,1
+P114,Compact Gym Duffel,Accessories,fitness,139,4.2,1,0,1,1
+P115,Thermal Base Layer,Apparel,outdoor,129,4.6,1,1,1,1
