@@ -2,6 +2,10 @@
 
 A functional, browser-based supply chain operations dashboard built with HTML, CSS and vanilla JavaScript. No build step, package installation or API key is required.
 
+## Design deliverables
+- Figma Design: https://www.figma.com/design/OgwIkvzDkkPsf1AZ16atAf
+- PowerPoint case study: `smart-supply-chain-control-tower-presentation.pptx`
+  
 ## Run locally
 1. Download and unzip the project.
 2. Open `index.html` in a modern browser.
@@ -28,10 +32,3 @@ The initial dataset is realistic **sample/demo data**, not a live ERP, WMS, TMS 
 - `styles.css` — responsive dashboard styling
 - `app.js` — sample data, rendering, CRUD, filters, persistence and CSV export
 
-## Suggested GitHub repository description
-Interactive supply chain control tower prototype for monitoring inventory, supplier performance, shipment delays and operational exceptions.
-
-
-## Design deliverables
-- Figma Design: https://www.figma.com/design/OgwIkvzDkkPsf1AZ16atAf
-- PowerPoint case study: `smart-supply-chain-control-tower-presentation.pptx` 
