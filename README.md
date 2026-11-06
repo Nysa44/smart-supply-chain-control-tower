@@ -43,11 +43,6 @@ docs/               Architecture, user flows, data dictionary and QA plan
 - **On-time delivery:** delivered sample shipments whose actual arrival date is on or before planned arrival, divided by all delivered sample shipments.
 - **Units affected:** sum of `units_affected` across unresolved exceptions. This is a simplified demo exposure measure and mixes operational units across issue types; it is not a literal inventory total.
 
-## Limitations
-This is a portfolio prototype, not a production control tower. Data is synthetic, shipment dates are illustrative, local storage is browser-specific, and there is no live ERP/TMS/WMS integration, backend, authentication, audit trail or role-based access. See `docs/test-plan.md` for manual browser QA steps.
-
-## Suggested portfolio description
-Built a responsive supply-chain control tower prototype with dynamic KPI calculations, exception prioritisation, multi-field search and filters, persistent status updates, CSV export, automated static checks and a GitHub Pages deployment workflow.
 
 ## License
 MIT.
