@@ -34,4 +34,4 @@ Interactive supply chain control tower prototype for monitoring inventory, suppl
 
 ## Design deliverables
 - Figma Design: https://www.figma.com/design/OgwIkvzDkkPsf1AZ16atAf
-- PowerPoint case study: `smart-supply-chain-control-tower-presentation.pptx` (provided alongside this project ZIP)
+- PowerPoint case study: `smart-supply-chain-control-tower-presentation.pptx` 
