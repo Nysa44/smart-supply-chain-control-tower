@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SupplyOps | Control Tower</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">S</div><div><b>SupplyOps</b><small>CONTROL TOWER</small></div></div>
+    <div class="workspace"><span class="workspace-dot"></span> Global Operations <span class="chevron">⌄</span></div>
+    <p class="nav-label">WORKSPACE</p>
+    <nav>
+      <button class="nav-item active" data-view="overview"><span>▦</span> Overview</button>
+      <button class="nav-item" data-view="inventory"><span>▤</span> Inventory</button>
+      <button class="nav-item" data-view="suppliers"><span>♙</span> Suppliers</button>
+      <button class="nav-item" data-view="shipments"><span>⇄</span> Shipments</button>
+      <button class="nav-item" data-view="exceptions"><span>⚑</span> Exceptions <i id="exceptionNavCount">4</i></button>
+    </nav>
+    <p class="nav-label">INSIGHTS</p>
+    <nav><button class="nav-item" data-view="analytics"><span>▥</span> Analytics</button></nav>
+    <div class="sidebar-bottom"><div class="help-card"><b>Need a hand?</b><p>Review the quick-start guide to explore the control tower.</p><button id="guideBtn">View guide ↗</button></div><div class="profile"><div class="avatar">NK</div><div><b>Operations Analyst</b><small>Workspace admin</small></div><span>•••</span></div></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div class="breadcrumb">Workspace <span>/</span> <b id="crumb">Overview</b></div><div class="top-actions"><span class="sync"><span></span> Live data · just now</span><button class="icon-btn" title="Notifications" id="notifyBtn">♧<em></em></button><div class="avatar small">NK</div></div></header>
+    <section class="page">
+      <div class="page-heading"><div><p class="eyebrow">MONDAY, 06 NOVEMBER 2026</p><h1 id="pageTitle">Supply chain overview</h1><p class="subhead" id="pageSubtitle">A real-time view of operational health across your supply chain.</p></div><div class="heading-actions"><button class="btn secondary" id="exportBtn">↓ Export report</button><button class="btn primary" id="addBtn">＋ <span id="addLabel">Add exception</span></button></div></div>
+      <div id="viewContent"></div>
+    </section>
+  </main>
+</div>
+<div class="toast" id="toast"></div>
+<div class="modal-backdrop" id="modalBackdrop"><div class="modal"><div class="modal-head"><div><p class="eyebrow">CONTROL TOWER</p><h2 id="modalTitle">Add exception</h2></div><button class="icon-btn" id="closeModal">×</button></div><form id="recordForm"><div id="formFields" class="form-grid"></div><div class="modal-actions"><button type="button" class="btn secondary" id="cancelModal">Cancel</button><button type="submit" class="btn primary">Save record</button></div></form></div></div>
+<script src="app.js"></script>
+</body></html>

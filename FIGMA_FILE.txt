@@ -1,0 +1,3 @@
+Figma Design: https://www.figma.com/design/OgwIkvzDkkPsf1AZ16atAf
+
+The Figma file contains five editable frames: executive overview, inventory monitoring, supplier performance, exception management, and three core user flows.
